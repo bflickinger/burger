@@ -1,56 +1,12 @@
-body {
-    width: 100%;
-    background-color: #fff;
-    overflow: hidden;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
-  }
-  
-  input {
-    color: #000 ;
-  }
-  
-  .uneaten-title {
-    text-align: center;
-  }
-  
-  #pacman-title {
-    margin-top: 10px;
-  }
-  
-  #pacman {
-    float: left;
-  }
-  
-  #ghost {
-    float: right;
-  }
-  
-  ul.uneaten li{
-    display: inline-block;
-    float: left;
-    list-style-type:none;
-    margin: 10px;
-  }
-  
-  #update {
-  text-align: center;
-  }
-  
-  #eaten {
-    text-align: center;
-  }
-  
-  .burgers-eaten {
-    overflow-y: scroll;
-  }
-  
-  button {
-    background-color: #000;
-    color: yellow;
-  }
+.jumbotron {
+  background-image: url('../img/burger.gif');
+  background-position: right;
+}
+
+.form-control {
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
